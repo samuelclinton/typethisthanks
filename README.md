@@ -5,6 +5,8 @@
 
 **ttt.js** is a simple *Vanilla JS* script that types (and then erases) one or many strings. It also supports looping and has settings that can be modified to change the speed of the animations.
 
+See a working demo [here](https://samuelclinton.github.io/typethisthanks/).
+
 ## How to use
 
 First download [ttt.js](https://github.com/samuelclinton/typethisthanks/tree/main/dist) (from this very repo go to the *dist* folder and grab it, how convenient eh?) and include it in the page you want to type stuff into, before the closing `</body>` tag. Then initialize the script by calling the function `ttt.start(true)` (or false if you don't want to enable looping)
