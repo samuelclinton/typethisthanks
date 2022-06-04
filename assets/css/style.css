@@ -1,0 +1,40 @@
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(255,183,3);
+    background: linear-gradient(150deg, rgba(255,183,3,1) 0%, rgba(251,133,0,1) 100%);
+}
+
+.ttt-container {
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.cta {
+    position: absolute;
+    bottom: 5rem;
+    padding: 10px;
+    font-size: 36px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    opacity: 1;
+    transition: .5s opacity;
+}
+
+.cta:hover {
+    opacity: .7;
+}
